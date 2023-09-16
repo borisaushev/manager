@@ -1,0 +1,27 @@
+.navigation-panel {
+    display: flex;
+    background-color: #282d30;
+    padding: 30px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: space-evenly;
+    z-index: 999999;
+    border-bottom: 4px solid #0096c6;
+}
+
+.navigation-panel a {
+    margin: 0 -150px;
+    font: 1.25em "Fira Sans", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link {
+    color: white;
+}
+
+.chosen-link {
+      color: #0595c8;
+}
