@@ -10,7 +10,7 @@ public class PhotoUtil {
     public static String storePhoto(HttpServletRequest req) {
         try {
             Part part = req.getPart("photo");
-            File storage = new File("C:\\Users\\aplik\\IdeaProjects\\Manager\\src\\main\\resources\\Product images\\" + part.getSubmittedFileName());
+            File storage = new File("Your PATH\\aplik\\IdeaProjects\\Manager\\src\\main\\resources\\Product images\\" + part.getSubmittedFileName());
             if(!part.getSubmittedFileName().equals("")) {
                 part.write(storage.getAbsolutePath());
                 return storage.getAbsolutePath();
