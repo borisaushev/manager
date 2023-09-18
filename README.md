@@ -7,3 +7,5 @@
 ![2023-09-16_21-39-52](https://github.com/borisaushev/manager/assets/57569512/0ae5323d-4ba4-4786-93ac-c28371a78720)
 ![2023-09-16_21-41-08](https://github.com/borisaushev/manager/assets/57569512/422554f5-e5f0-4811-a23e-836efb23cade)
 ![2023-09-16_21-41-29](https://github.com/borisaushev/manager/assets/57569512/f69d2a07-f2b3-413d-a627-50db636d1d84)
+![2023-09-18_20-49-07](https://github.com/borisaushev/manager/assets/57569512/99b2f881-6fa8-46f2-b26b-0f856554df24)
+![папка с фотками](https://github.com/borisaushev/manager/assets/57569512/61c8741e-5417-43eb-91b8-6de8a20ccafa)
