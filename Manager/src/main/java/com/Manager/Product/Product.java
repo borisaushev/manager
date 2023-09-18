@@ -33,7 +33,7 @@ public class Product {
     public String getEncodedPhoto() {
         String encodedPhoto = null;
         try {
-            String path = image_path == null ? "C:\\Users\\aplik\\IdeaProjects\\Manager\\src\\main\\resources\\Product Info\\DEFAULTIMAGE.png" : image_path;
+            String path = image_path == null ? "Your PATH\\IdeaProjects\\Manager\\src\\main\\resources\\Product Info\\DEFAULTIMAGE.png" : image_path;
             byte[] fileContent = Files.readAllBytes(Path.of(path));
             String encodedString = Base64.getEncoder().encodeToString(fileContent);
             encodedPhoto = "<img class=\"product-image\" src='data:image/png;base64," + encodedString + "' alt=\"Фото товара\">";
@@ -43,7 +43,7 @@ public class Product {
             image_path = null;
             DB_ProductControl.updateProduct(this, name);
 
-            String path = "C:\\Users\\aplik\\IdeaProjects\\Manager\\src\\main\\resources\\Product Info\\DEFAULTIMAGE.png";
+            String path = "Your PATH\\IdeaProjects\\Manager\\src\\main\\resources\\Product Info\\DEFAULTIMAGE.png";
             byte[] fileContent = new byte[0];
             try {fileContent = Files.readAllBytes(Path.of(path));} catch (IOException ex) { ex.printStackTrace(); }
             String encodedString = Base64.getEncoder().encodeToString(fileContent);
